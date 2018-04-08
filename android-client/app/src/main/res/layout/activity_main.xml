@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="56dp"
+            android:weightSum="1">
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/toolbar_activ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/photo_take"
+            android:layout_width="140dip"
+            android:layout_height="140dip"
+            android:layout_below="@+id/tool_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+
+        <Button
+            android:id="@+id/btn_continue2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo_take"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="237dp"
+            android:background="@color/colorPrimary"
+            android:text="Live Stream"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo_take"
+            android:background="@drawable/rounded_edges"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:layout_marginTop="65dp"
+            android:text="" />
+
+
+    </RelativeLayout>
+</ScrollView>

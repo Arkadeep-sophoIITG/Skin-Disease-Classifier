@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632114394873",
+    "firebase_url": "https://skindiseaseclassifier.firebaseio.com",
+    "project_id": "skindiseaseclassifier",
+    "storage_bucket": "skindiseaseclassifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632114394873:android:75b969a060af329a",
+        "android_client_info": {
+          "package_name": "com.example.arkadeep.skindiseaseclassifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632114394873-qgijlam5nffd4i23vfurn8algk54usv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB70a5KnvnTjy2uTkLvW9iLB23loFQCBBk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
